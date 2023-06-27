@@ -7,3 +7,4 @@
 /WebApp/flask/env/*
 /WebApp/flask/helper/poppler/*
 /WebApp/flask/helper/__pycache__/*
+/WebApp/flask/aws.config
