@@ -1,0 +1,16 @@
+Table: 0
+
+,Explicit Join ,Implicit Join ,,
+1 ,SELECT CourseName, TeacherName ,1 SELECT ,CourseName, TeacherName ,
+2 ,FROM Courses INNER JOIN Teachers ,2 FROM ,Courses, Teachers ,
+3 ,ON Courses. TeacherID = Teachers. TeacherI ,3 WHERE ,Courses. TeacherID = Teachers TeacherID ,
+
+
+
+
+
+Courses:,"CourseID*, CourseName, TeacherID"
+Teachers:,"TeacherID*, TeacherName"
+"At first, we might try something like this:","1 /* Incorrect Code */ 2 SELECT Students.StudentName, count(*) 3 FROM Students INNER JOIN StudentCourses 4 ON Students. StudentID = StudentCourses.StudentI 5 GROUP BY Students.StudentID"
+StudentCourses:,"CourseID*, StudentID*"
+Students:,"StudentID*, StudentName"
