@@ -26,3 +26,7 @@ Download AWS CLI and set it up to be able to use Boto3
     * Detailed info about the relationships are present in the parser_aws.py file
     * **results are stored in the ./output/csv/ directory**
 
+
+
+https://github.com/vsharma-va/Extract-PDF/assets/78730763/ae800933-fa62-460b-b4c5-05634f154df5
+
