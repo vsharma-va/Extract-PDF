@@ -1,7 +1,7 @@
-./Standalone_Script/env/*
-./Standalone_Script/poppler/*
-./Standalone_Script/test.ipynb
-./Standalone_Script/textract.json
+/Standalone_Script/env/*
+/Standalone_Script/poppler/*
+/Standalone_Script/test.ipynb
+/Standalone_Script/textract.json
 
-./WebApp/flask/env/*
-./WebApp/flask/helper/poppler/*
+/WebApp/flask/env/*
+/WebApp/flask/helper/poppler/*
