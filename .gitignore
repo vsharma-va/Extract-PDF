@@ -2,6 +2,8 @@
 /Standalone_Script/poppler/*
 /Standalone_Script/test.ipynb
 /Standalone_Script/textract.json
+/Standalone_Script/__pycache__/*
 
 /WebApp/flask/env/*
 /WebApp/flask/helper/poppler/*
+/WebApp/flask/helper/__pycache__/*
