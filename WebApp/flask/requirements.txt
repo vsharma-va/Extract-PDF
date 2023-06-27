@@ -1,0 +1,5 @@
+boto3==1.26.161
+botocore==1.29.161
+Flask_Cors==4.0.0
+pdf2image==1.16.3
+Flask==2.3.2
